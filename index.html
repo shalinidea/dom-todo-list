@@ -1,15 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Todo List</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<h1>My To-Do List</h1>
-
-	<ul id="todo-list"></ul>
-
-	<script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>My To-Do List</h1>
+      </div>
+      <div class="content">
+        <ul id="todo-list">
+          <div class="item">
+            <li>Buy milk</li>
+            <button class="delete">Delete</button>
+          </div>
+          <div class="item">
+            <li>Eat Dinner</li>
+            <button class="delete">Delete</button>
+          </div>
+          <div class="item">
+            <li>Nail Javasript</li>
+            <button class="delete">Delete</button>
+          </div>
+          <div class="item">
+            <li>Give Feedback</li>
+            <button class="delete">Delete</button>
+          </div>
+        </ul>
+        <div class="add-item">
+          <input type="text" /> <button id="add-to-do">Add To-do</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
